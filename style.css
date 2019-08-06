@@ -11,7 +11,7 @@
 .nav {
     padding: 0 10px 0px 10%;
     text-align: center;
-    background-color: pink;
+    background-color: #d2cfd2;
     /*  display: flex;
         justify-content: space-between; */ 
 }
@@ -19,38 +19,53 @@
 .logo {
     width: 120px;
     height: 35px;
-    color: white;
-    background: purple;
+    color: wheat;
+    background: #b6936c;
     font-size: 20px;
     float: left;
     border-radius: 20px 5px 20px 5px;
-    margin: 5px;
+    margin: 10px 10px 15px 0px;
     padding-top: 10px;
     padding-bottom: 5px;
     /* flex: 1 1 0;*/
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
 }
 
 .nav__button {
     width: 120px;
     height: 35px;
-    background: green;
+    background: #a7a0a2;
     font-size: 20px;
     float: left;
     border-radius: 20px 5px 20px 5px;
-    margin: 5px;
+    margin: 10px 10px 15px 10px;
     padding-top: 10px;
     padding-bottom: 5px;
     /* flex: 1 1 0; */
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
 }
 
 .clear {
     clear: both;
+}
+
+.header {
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 15px;
+    background-color: #b6936c;
+    color: wheat;
+    border-radius: 5px 20px 5px 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
 }
 
 .main {
@@ -68,7 +83,7 @@
 
 .title {
     font-size: 35px;
-    color: black;
+    color: #4a3d37;
 }
 
 .footer {
