@@ -13,7 +13,10 @@
     text-align: center;
     background-color: #d2cfd2;
     /*  display: flex;
-        justify-content: space-between; */ 
+        justify-content: space-between; */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5); 
 }
 
 .logo {
@@ -23,8 +26,8 @@
     background: #b6936c;
     font-size: 20px;
     float: left;
-    border-radius: 20px 5px 20px 5px;
-    margin: 10px 10px 15px 0px;
+    border-radius: 20px 7px 20px 7px;
+    margin: 10px 20px 15px 0px;
     padding-top: 10px;
     padding-bottom: 5px;
     /* flex: 1 1 0;*/
@@ -39,8 +42,8 @@
     background: #a7a0a2;
     font-size: 20px;
     float: left;
-    border-radius: 20px 5px 20px 5px;
-    margin: 10px 10px 15px 10px;
+    border-radius: 20px 7px 20px 7px;
+    margin: 10px 20px 15px 0px;
     padding-top: 10px;
     padding-bottom: 5px;
     /* flex: 1 1 0; */
@@ -62,7 +65,7 @@
     padding: 15px;
     background-color: #b6936c;
     color: wheat;
-    border-radius: 5px 20px 5px 20px;
+    border-radius: 7px 20px 7px 20px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
     -moz-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
     box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
@@ -76,18 +79,26 @@
 
 .photo {
     float: left;
-    width: 20%;
-    margin: 10px 10px 10px 0;
+    width: 25%;
+    max-width: 200px;
+    margin: 7px 10px 3px 0;
     border-radius: 20px 5px 20px 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(74,66,63,0.5);
+}
+
+.article {
+    color:  #4a423f;
+
 }
 
 .title {
-    font-size: 35px;
-    color: #4a3d37;
+    font-size: 25px;
+    
 }
 
 .footer {
-    border-top: 2px black;
     margin-left: 10%;
     margin-right: 10%;
     text-align: right;
