@@ -60,16 +60,16 @@
 }
 
 a:link{
-    color: antiquewhite;
+    color: #4a423f;
 }
 a:visited{
     color: #4a423f;
 }
 a:hover {
-    color: #a7a0a2;
+    color: wheat;
 }
 a:active {
-    color: #b6936c;
+    color: #4a423f;
 }
 
 .clear {
