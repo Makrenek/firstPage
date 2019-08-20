@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Makrenek</title>
 </head>
+
 <body>
-    <nav class="nav">
-        <span class="logo logo--hover">Makrenek</span>
-        <p class="nav__button nav__button--hover"><a href="#about">About</a></p>
-        <p class="nav__button nav__button--hover"><a href="#interests">Interests</a></p>
-        <p class="nav__button nav__button--hover"><a href="#skills">Skills</a></p>
-        <p class="nav__button nav__button--hover"><a href="#portfolio">Portfolio</a></p>
+    <nav class="nav shadow">
+        <p class="logo logo--hover shadow"><em>Makrenek</em></p>
+        <p class="nav__button nav__button--hover shadow"><a href="#about">About</a></p>
+        <p class="nav__button nav__button--hover shadow"><a href="#interests">Interests</a></p>
+        <p class="nav__button nav__button--hover shadow"><a href="#skills">Skills</a></p>
+        <p class="nav__button nav__button--hover shadow"><a href="#portfolio">Portfolio</a></p>
         <p class="clear"></p>
     </nav>
     <header>
-        <p class="header"> Nie wiem co tu</p>
+        <p class="header shadow"> Nie wiem co tu...</p>
     </header>
     <main class="main">
         <section id="about" class="article">
-            <img src="helen.jpg" class="photo"/>
-            <h2 class="title"> Helena Makrenek </h2>
+            <img src="helen.jpg" class="photo shadow" />
+            <h2 class="title">Helena Makrenek</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, facere unde! Sunt aspernatur eligendi expedita incidunt sit nisi placeat culpa ipsa ab quos exercitationem molestias quas dolorem soluta, aperiam saepe.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, facere unde! Sunt aspernatur eligendi
+                expedita incidunt sit nisi placeat culpa ipsa ab quos exercitationem molestias quas dolorem soluta,
+                aperiam saepe.
             </p>
             <p class="clear"></p>
         </section>
         <section id="interests" class="article">
             <h2 class="title"> Zainteresowania </h2>
-            <p> tu wstawić śmieszne czcionki i opisy zaiteresowań Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, illum exercitationem reprehenderit quidem veritatis quae corporis aliquam id, blanditiis earum mollitia consectetur. Voluptatem autem labore eos? Quibusdam ducimus nobis totam!</p>
+            <p> tu wstawić śmieszne czcionki i opisy zaiteresowań Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Voluptatibus, illum exercitationem reprehenderit quidem veritatis quae corporis aliquam id,
+                blanditiis earum mollitia consectetur. Voluptatem autem labore eos? Quibusdam ducimus nobis totam!</p>
         </section>
         <section id="skills" class="article">
             <h2 class="title"> Umiejętności </h2>
-            <p> dwie kolumny z listami? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error necessitatibus, eos iusto temporibus facere non mollitia laudantium ex architecto aut cum voluptatibus aperiam odit, dolor odio voluptate! Tempore, cumque reprehenderit.</p>
+            <p> dwie kolumny z listami? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error necessitatibus,
+                eos iusto temporibus facere non mollitia laudantium ex architecto aut cum voluptatibus aperiam odit,
+                dolor odio voluptate! Tempore, cumque reprehenderit.</p>
         </section>
         <section id="portfolio" class="article">
             <h2 class="title"> Portfolio </h2>
-            <p> Lista linków/miniaturek </p>
+            <ul class="list">
+                <li>
+                    <a href="elocals.pl"><img src="img1.jpg" class="list__item" /></a>
+                    <hr>
+                    <a href="elocals.pl">elocals.pl</a>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </section>
     </main>
     <footer class="footer">
         <p> Contact me at: LiN @ </p>
     </footer>
 </body>
+
 </html>
