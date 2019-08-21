@@ -80,8 +80,7 @@ a:active {
     text-align: right;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 55px;
     padding: 15px;
     background-color: #b6936c;
     color: wheat;
@@ -113,6 +112,29 @@ a:active {
     font-size: 25px;
     
 }
+/* grid template for skills */
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "html css git";
+    grid-column-gap: 5%;
+    justify-items: center;
+    margin-top: 5%;
+    font-size: 35px
+    
+}
+.skills-html {
+    grid-area: html;
+    
+}
+.skills-css {
+    grid-area: css;
+}
+.skills-git {
+    grid-area: git;
+}
+
 
 .list {
     text-decoration-color: #b6936c;
