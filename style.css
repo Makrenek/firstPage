@@ -10,6 +10,10 @@
     list-style-type: none;
 }
 
+body{
+    font-size: 20px;
+}
+
 .nav {
     padding: 0 10px 0px 10%;
     text-align: center;
@@ -123,11 +127,11 @@ a:active {
 /* grid template for skills */
 .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1 fr 1fr 1fr 1fr 1fr 1 fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:"iCan html css git"
-                        "inP js sass api"
-                        "Iwill jq redux csharp";
+    grid-template-areas:"iCan html css git ."
+                        "inP js sass api ."
+                        "Iwill jq redux csharp .";
     grid-column-gap: 5%;
     grid-row-gap: 5%;
     justify-items: right;
