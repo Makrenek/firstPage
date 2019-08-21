@@ -7,6 +7,7 @@
     text-decoration: none;
     outline: 0;
     font-family: Lato;
+    list-style-type: none;
 }
 
 .nav {
@@ -121,7 +122,7 @@ a:active {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 45px;
-    color: #b6936c; 
+    color: #b6936c;~ 
 }
 /* grid template for skills */
 .skills {
@@ -140,7 +141,7 @@ a:active {
 }
 .skills-iCan {
     grid-area: iCan;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .skills-html {
     grid-area: html;  
@@ -153,7 +154,7 @@ a:active {
 }
 .skills-inProgress {
     grid-area: inP;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .skills-js {
     grid-area: js;  
@@ -166,7 +167,7 @@ a:active {
 }
 .skills-Iwill {
     grid-area: Iwill;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .skills-jq {
     grid-area: jq;
@@ -188,11 +189,16 @@ a:active {
 
 .list__item {
     max-width: 50%;
-
+    margin-top: 25px;
+}
+.list__item:hover{
+    transform: rotateX(12);
 }
 
+
 .footer {
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: right;
+    background-color: #a7a0a2;
+    padding-right: 20%;
+    color: wheat;
 }
