@@ -107,32 +107,76 @@ a:active {
     color:  #4a423f;
 
 }
-
 .title {
+    text-align: center;
     font-size: 25px;
-    
+}.title2 {
+    font-size: 25px;
+}
+/* flex-box for interests icons */
+.interests-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    color: #b6936c; 
 }
 /* grid template for skills */
 .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "html css git";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"iCan html css git"
+                        "inP js sass api"
+                        "Iwill jq redux csharp";
     grid-column-gap: 5%;
-    justify-items: center;
+    grid-row-gap: 5%;
+    justify-items: right;
     margin-top: 5%;
-    font-size: 35px
+    font-size: 25px;
     
 }
+.skills-iCan {
+    grid-area: iCan;
+    margin-top: 20%;
+}
 .skills-html {
-    grid-area: html;
-    
+    grid-area: html;  
 }
 .skills-css {
     grid-area: css;
 }
 .skills-git {
     grid-area: git;
+}
+.skills-inProgress {
+    grid-area: inP;
+    margin-top: 20%;
+}
+.skills-js {
+    grid-area: js;  
+}
+.skills-sass {
+    grid-area: sass;
+}
+.skills-api {
+    grid-area: api;
+}
+.skills-Iwill {
+    grid-area: Iwill;
+    margin-top: 20%;
+}
+.skills-jq {
+    grid-area: jq;
+    
+}
+.skills-redux {
+    grid-area: redux;
+}
+.skills-csharp {
+    grid-area: csharp;
 }
 
 
