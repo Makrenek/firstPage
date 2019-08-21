@@ -16,8 +16,7 @@
     background-color: #d2cfd2;
     position: sticky;
     top: 0;
-    /*  display: flex;
-        justify-content: space-between; */
+    z-index: 999;
 }
 
 .shadow{
@@ -37,7 +36,6 @@
     margin: 10px 20px 15px 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* flex: 1 1 0;*/
 }
 
 .nav__button {
@@ -50,7 +48,6 @@
     margin: 10px 20px 15px 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* flex: 1 1 0; */
 }
 
 
@@ -85,8 +82,7 @@ a:active {
     padding: 15px;
     background-color: #b6936c;
     color: wheat;
-    border-radius: 7px 20px 7px 20px;
-    
+    border-radius: 7px 20px 7px 20px;   
 }
 
 .main {
@@ -184,6 +180,7 @@ a:active {
 .list {
     text-decoration-color: #b6936c;
     text-align: center;
+    padding-bottom: 25px;
 
 }
 
@@ -192,7 +189,9 @@ a:active {
     margin-top: 25px;
 }
 .list__item:hover{
-    transform: rotateX(12);
+    transform: scale(0.9) rotate(2deg);
+    transition: transform 0.2s ease-in-out;
+
 }
 
 
