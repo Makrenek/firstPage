@@ -204,10 +204,11 @@ a:active {
 
 
 .footer {
-    text-align: right;
     background-color: #a7a0a2;
-    padding-right: 20%;
     color: wheat;
     padding-top: 3px;
     padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
